@@ -1,0 +1,108 @@
+# ==========================================================
+# Jekyll Site Configuration
+# Repository Homepage / GitHub Pages
+# ==========================================================
+
+# -------------------------
+# Theme
+# -------------------------
+theme: minima
+
+# -------------------------
+# Site Metadata
+# -------------------------
+title: "Say | Curiosity Lab"
+description: >
+  A living research notebook dedicated to systems thinking,
+  structured curiosity, intelligence analysis, reproducible
+  research, and challenging assumptions through evidence.
+
+author: "Say"
+
+# -------------------------
+# Site URL
+# Leave empty unless using a custom domain.
+# -------------------------
+url: ""
+baseurl: ""
+
+# -------------------------
+# Language
+# -------------------------
+lang: en
+
+# -------------------------
+# Timezone
+# -------------------------
+timezone: Europe/Amsterdam
+
+# -------------------------
+# Markdown Engine
+# -------------------------
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# -------------------------
+# Minima Theme Settings
+# -------------------------
+minima:
+  skin: auto
+
+# -------------------------
+# Header Navigation
+# -------------------------
+header_pages:
+  - index.md
+
+# -------------------------
+# Build Settings
+# -------------------------
+plugins:
+  - jekyll-feed
+
+# -------------------------
+# Footer
+# -------------------------
+show_excerpts: true
+
+# -------------------------
+# Collections Defaults
+# -------------------------
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+# -------------------------
+# SEO
+# -------------------------
+twitter:
+  username: ""
+
+github_username: ""
+
+# -------------------------
+# Philosophy
+# -------------------------
+# This website is intended as a continuously evolving
+# research notebook.
+#
+# Core values:
+# • Evidence over assumptions
+# • Curiosity over certainty
+# • Reproducibility over opinion
+# • Systems thinking over isolated facts
+#
+# Every page should answer:
+#   What is known?
+#   What is uncertain?
+#   What evidence supports the conclusion?
+#
+# End of configuration.
